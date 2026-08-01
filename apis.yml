@@ -1,8 +1,26 @@
 aid: roofr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roofr.png
 name: Roofr
-description: 'Roofr is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Roofr is an all-in-one roofing software and CRM built for roofing contractors, bundling
+  aerial roof measurement reports, an instant online estimator, digital proposals with e-signature,
+  integrated payments, material ordering, a job calendar, and pipeline/CRM tooling into one platform to
+  help roofers win, run, and close jobs. Roofr does not publish a public developer API or self-serve
+  documentation: the only API key it issues (under Settings and Integrations) exists to connect Roofr to
+  Zapier, and any broader programmatic access is sales-gated behind a demo. Automation for external
+  systems is delivered primarily through Zapier triggers (new Instant Estimator lead, proposal signed,
+  proposal marked lost) rather than a documented REST API. Roofr is a portfolio company of Bullpen
+  Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/roofr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- Roofing
+- Construction
+- CRM
+- Proposals
+- Payments
+- Field Service
+- Contractor Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://roofr.com
+- type: Pricing
+  url: https://roofr.com/pricing
+- type: Blog
+  url: https://roofr.com/blog
+- type: Support
+  url: https://roofrhelp.zendesk.com/hc/en-us
+- type: SignUp
+  url: https://roofr.com/register
+- type: Login
+  url: https://roofr.com/login
+- type: TermsOfService
+  url: https://roofr.com/terms
+- type: PrivacyPolicy
+  url: https://roofr.com/privacy
+- type: DomainSecurity
+  url: security/roofr-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
