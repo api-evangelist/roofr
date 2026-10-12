@@ -1,0 +1,431 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/roofr/integrations
+checked:
+- https://composio.dev/toolkits/roofr
+- https://monid.ai/tools/roofr
+- https://n8n.io/integrations/roofr/
+- https://zapier.com/apps/roofr/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: roofr
+  url: https://zapier.com/apps/roofr/integrations
+  external_url: https://roofr.com/
+  partner_tier: GOLD
+  triggers:
+  - key: instant_estimator_lead_created
+    label: Roofr Lead Created
+  - key: job_workflow_stage_changed
+    label: Job Workflow Stage Changed
+  - key: measurement_queue_created
+    label: Roofr Report Ordered
+  - key: proposal_moved_to_lost
+    label: Proposal Lost
+  - key: proposal_sent
+    label: Proposal Sent
+  - key: proposal_signed
+    label: Proposal Signed
+  - key: proposal_total_adjusted
+    label: Proposal Total Adjusted
+  - key: proposal_viewed
+    label: Proposal Viewed
+  actions:
+  - key: create_job_and_customer
+    label: Create Job and Customer
+  searches: []
+edges:
+- partner_name: LeadConnector
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/leadconnector
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.leadconnectorhq.com/
+- partner_name: QuickBooks Online
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/quickbooks
+  direction: third-party
+  category: Accounting
+  partner_url: http://intuit.com/
+- partner_name: Google Ads
+  partner: google-ads
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-ads
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://ads.google.com/
+- partner_name: Facebook Conversions
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/facebook-conversions
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://developers.facebook.com/docs/marketing-api/server-side-api/guides/zapier-integration
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/facebook-lead-ads
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://www.facebook.com/business/ads/lead-ads
+- partner_name: Gmail
+  partner: gmail
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/gmail
+  direction: third-party
+  category: Email
+  partner_url: https://mail.google.com/
+- partner_name: Google Calendar
+  partner: google-calendar
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-calendar
+  direction: third-party
+  category: Calendar
+  partner_url: https://calendar.google.com/
+- partner_name: CompanyCam
+  partner: companycam
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/companycam
+  direction: third-party
+  category: Images & Design
+  partner_url: http://companycam.com/
+- partner_name: JobNimbus
+  partner: jobnimbus
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/jobnimbus
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: http://www.jobnimbus.com/
+- partner_name: DOPE360
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/dope360
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://dope360.com/
+- partner_name: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/microsoft-outlook
+  direction: third-party
+  category: Calendar
+  partner_url: https://outlook.live.com/
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-drive
+  direction: third-party
+  category: File Management & Storage
+  partner_url: https://www.google.com/drive/
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://google.com/
+- partner_name: Calendly
+  partner: calendly
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/calendly
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://calendly.com/?utm_medium=partner&utm_source=zapier&utm_campaign=main_partner_page&utm_content=main_inbound_link
+- partner_name: SumoQuote
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/sumoquote
+  direction: third-party
+  category: Proposal & Invoice Management
+  partner_url: https://app.sumoquote.com/
+- partner_name: Wix
+  partner: wix
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/wix
+  direction: third-party
+  category: Website Builders
+  partner_url: https://www.wix.com/
+- partner_name: Jobber
+  partner: jobber
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/jobber
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://www.getjobber.com/plp/zapier?utm_source=Zapier&utm_medium=PLP
+- partner_name: Gravity Forms
+  partner: gravity-forms
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/gravity-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://www.gravityforms.com/?utm_campaign=partners&utm_source=zapier-listing-learn-more&utm_medium=free-placement
+- partner_name: Google Analytics 4
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/google-analytics-4
+  direction: third-party
+  category: Analytics
+  partner_url: https://marketingplatform.google.com/about/analytics/
+- partner_name: AccuLynx
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/acculynx
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://acculynx.com/
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/mailchimp
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://mailchimp.com/
+- partner_name: Trello
+  partner: trello
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/trello
+  direction: third-party
+  category: Project Management
+  partner_url: https://trello.com/
+- partner_name: Facebook Lead Ads (for Business admins)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/facebook-lead-ads-beta
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://facebook.com/
+- partner_name: Spotio
+  partner: spotio
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/spotio2
+  direction: third-party
+  category: Sales & CRM
+  partner_url: https://spotio.com/
+- partner_name: SalesRabbit
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/salesrabbit
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://salesrabbit.com/
+- partner_name: Housecall Pro
+  partner: housecall-pro
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/housecall-pro
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://www.housecallpro.com/
+- partner_name: Leap CRM
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/leap-crm
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://leaptodigital.com/leap-crm/
+- partner_name: Salesmsg
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/salesmsg
+  direction: third-party
+  category: Phone & SMS
+  partner_url: https://www.salesmessage.com/get-started-now?utm_source=zapier&utm_medium=app_page&utm_campaign=integration
+- partner_name: Smith.ai
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/roofr/integrations/smithai-zapier-app-da100556
+  direction: third-party
+  category: Phone & SMS
+  partner_url: http://smith.ai/
+templates:
+- title: Create new QuickBooks Online customers when Roofr proposals are signed
+  url: https://zapier.com/apps/quickbooks/integrations/roofr/1315336/create-new-quickbooks-online-customers-when-roofr-proposals-are-signed
+  apps:
+  - roofr
+  - quickbooks
+- title: Create new Roofr jobs and customers from new Calendly invitees
+  url: https://zapier.com/apps/calendly/integrations/roofr/1759049/create-new-roofr-jobs-and-customers-from-new-calendly-invitees
+  apps:
+  - calendly
+  - roofr
+- title: Create or update persons in NiceJob when new proposals are sent in Roofr
+  url: https://zapier.com/apps/nicejob/integrations/roofr/1698033/create-or-update-persons-in-nicejob-when-new-proposals-are-sent-in-roofr
+  apps:
+  - roofr
+  - nicejob
+- title: Manage new and updated JobNimbus jobs by creating jobs and customers in Roofr
+  url: https://zapier.com/apps/jobnimbus/integrations/roofr/1637273/manage-new-and-updated-jobnimbus-jobs-by-creating-jobs-and-customers-in-roofr
+  apps:
+  - jobnimbus
+  - roofr
+- title: Create Roofr jobs and customers from new Facebook Lead Ads leads
+  url: https://zapier.com/apps/facebook-lead-ads/integrations/roofr/1571844/create-roofr-jobs-and-customers-from-new-facebook-lead-ads-leads
+  apps:
+  - facebook-lead-ads
+  - roofr
+- title: Create new CompanyCam projects from new Roofr leads
+  url: https://zapier.com/apps/companycam/integrations/roofr/1731001/create-new-companycam-projects-from-new-roofr-leads
+  apps:
+  - roofr
+  - companycam
+- title: Create jobs and customers in Roofr from new leads in Nextdoor
+  url: https://zapier.com/apps/nextdoor/integrations/roofr/255651614/create-jobs-and-customers-in-roofr-from-new-leads-in-nextdoor
+  apps:
+  - nextdoor
+  - roofr
+- title: Create contacts in JobNimbus from new proposals in Roofr
+  url: https://zapier.com/apps/jobnimbus/integrations/roofr/855565/create-contacts-in-jobnimbus-from-new-proposals-in-roofr
+  apps:
+  - roofr
+  - jobnimbus
+- title: Create Leap CRM customers from newly sent proposals in Roofr
+  url: https://zapier.com/apps/leap-crm/integrations/roofr/855584/create-leap-crm-customers-from-newly-sent-proposals-in-roofr
+  apps:
+  - roofr
+  - leap-crm
+- title: Update contacts in Job Nimbus when new proposals are sent in Roofr
+  url: https://zapier.com/apps/jobnimbus/integrations/roofr/863241/update-contacts-in-job-nimbus-when-new-proposals-are-sent-in-roofr
+  apps:
+  - roofr
+  - jobnimbus
+- title: Create Acculynx leads from newly sent Roofr proposals
+  url: https://zapier.com/apps/acculynx/integrations/roofr/863251/create-acculynx-leads-from-newly-sent-roofr-proposals
+  apps:
+  - roofr
+  - acculynx
+- title: Create Leap CRM leads from new Roofr proposals sent
+  url: https://zapier.com/apps/leap-crm/integrations/roofr/863378/create-leap-crm-leads-from-new-roofr-proposals-sent
+  apps:
+  - roofr
+  - leap-crm
+template_total: 265
